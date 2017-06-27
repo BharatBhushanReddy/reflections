@@ -2,3 +2,23 @@ Q) What happens when you initialize a repository? Why do you need to do it?
 
 A) when we initialise a repository it creates a hidden file ".Git" and which lets git to keep track of it.
 
+Q) How can you use the staging area to make sure you have one commit per logical change?
+
+A) by using git diff --staging we get the difference between the latest commit and current file in staging area
+and then we can see the logical changes.
+
+Q) What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+A) when u r working in a part of project and u always to view your status and keep rtack of all changes u made then it would be a good option.
+
+Q) how do the diagrams help you visualize the branch structure?
+
+A) it helps us to analyse the result of git log easily.
+
+Q) What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+A) merging 2 branches together combines he changes made in 2 branches together logically.
+
+Q) What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+A) Manual merging is better because we get to know what the merge look like but some times it irritates.
